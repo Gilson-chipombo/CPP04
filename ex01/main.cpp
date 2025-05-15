@@ -6,7 +6,7 @@
 /*   By: gbravo-f <gbravo-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 15:53:41 by gbravo-f          #+#    #+#             */
-/*   Updated: 2025/05/13 15:51:17 by gbravo-f         ###   ########.fr       */
+/*   Updated: 2025/05/15 13:02:04 by gbravo-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,9 +53,6 @@ int main()
         for (int i = 0; i < size; ++i) delete animals[i];
     }
 
-    Dog basic;
-    {
-        Dog tmp = basic;
-    }
+   
     return 0;
 }

@@ -29,9 +29,8 @@ Cat::Cat(const Cat& other) : Animal(other){
 
 Cat& Cat::operator=(const Cat& other){
     std::cout << "Cat assignment operator called" << std::endl;
-    if (this->brain)
-        delete brain;
-    brain = new Brain(*other.brain);
+    if (this != &other)
+        brain = new Brain(*other.brain);
     return *this;
 }
 
